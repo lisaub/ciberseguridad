@@ -5,3 +5,6 @@ Justificación técnica:
 He elegido el modo "Red Interna" para garantizar el aislamiento total de la máquina virtual. Para estas pruebas iniciales no necesito que el sistema tenga acceso a internet; este modo crea un entorno completamente cerrado (un "búnker" de red).
 
 A diferencia del modo "Solo-Anfitrión" (Host-Only), que permite la comunicación entre la máquina virtual y mi computadora física (Host), la Red Interna bloquea incluso este tráfico, ofreciendo la máxima protección para mi equipo principal. Además, he evitado deliberadamente el modo "Puente" (Bridged), ya que esto expondría el laboratorio directamente a mi red doméstica, lo cual es un error de seguridad grave para un entorno de pruebas aislado.
+
+Protección del Estado Inicial (Snapshot):
+<img width="1785" height="1184" alt="Protección del Estado Inicial (Snapshot)" src="https://github.com/user-attachments/assets/977c9c66-db3f-4289-9ed4-77c05d939819" />
